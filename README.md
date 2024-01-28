@@ -2,6 +2,15 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Using the Mock API
+
+This project uses a mock API and mock data. To fully operate the project, you need to start the mock API server by following these steps:
+
+1. After cloning the project and installing dependencies, run the `server.js` file with Node.js:
+
+### `node server.js`
+
+This command starts the mock API server and indicates that the API is ready for use.
 ## Available Scripts
 
 In the project directory, you can run:

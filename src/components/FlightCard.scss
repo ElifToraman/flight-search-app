@@ -1,0 +1,46 @@
+.flight-card {
+    padding: 10px;
+    background-color: #ffffff;
+    color: #343a40;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    border: 1px solid grey;
+    .flight-times {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+  
+    .flight-duration {
+      position: relative;
+      &:before {
+        content: '';
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 100%; // Or whatever your design requires
+        height: 1px; // Line thickness
+        background-color: #000; // Line color
+        z-index: -1;
+      }
+    }
+  
+    .flight-airports {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      hr.flight-line {
+        flex-grow: 1;
+        border: 0;
+        height: 1px;
+        background-color: #000; 
+        margin: 0 10px; 
+      }
+    }
+    .flight-details {
+        display: flex;
+        justify-content: space-evenly;
+    }
+  }
+  

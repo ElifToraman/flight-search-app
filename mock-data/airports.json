@@ -1,0 +1,14 @@
+[
+  { "code": "JFK", "name": "John F. Kennedy International Airport", "city": "New York" },
+  { "code": "LAX", "name": "Los Angeles International Airport", "city": "Los Angeles" },
+  { "code": "ORD", "name": "Chicago O'Hare International Airport", "city": "Chicago" },
+  { "code": "ATL", "name": "Hartsfield-Jackson Atlanta International Airport", "city": "Atlanta" },
+  { "code": "LHR", "name": "Heathrow Airport", "city": "London" },
+  { "code": "CDG", "name": "Charles de Gaulle Airport", "city": "Paris" },
+  { "code": "HND", "name": "Tokyo Haneda Airport", "city": "Tokyo" },
+  { "code": "DXB", "name": "Dubai International Airport", "city": "Dubai" },
+  { "code": "FRA", "name": "Frankfurt Airport", "city": "Frankfurt" },
+  { "code": "SIN", "name": "Singapore Changi Airport", "city": "Singapore" },
+  { "code": "AMS", "name": "Amsterdam Schiphol Airport", "city": "Amsterdam" },
+  { "code": "SYD", "name": "Sydney Airport", "city": "Sydney" }
+]
